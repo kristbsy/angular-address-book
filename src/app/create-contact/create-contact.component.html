@@ -1,0 +1,11 @@
+<form action="">
+<label>First Name: </label><input type="text" [(ngModel)]="contact.firstName" name="first">
+<br>
+<label>Last Name: </label><input type="text" [(ngModel)]="contact.lastName" name="last">
+<br>
+<label>Street: </label><input type="text" [(ngModel)]="contact.street" name="street">
+<br>
+<label>City: </label><input type="text" [(ngModel)]="contact.city" name="city">
+<br>
+<button type="submit" (click)="submitForm()">Add contact</button>
+</form>
